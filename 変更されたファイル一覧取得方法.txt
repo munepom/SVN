@@ -1,0 +1,7 @@
+* 変更ファイルリストは、下記の要領で出力可能。
+svn diff -r開始リビジョン:終了リビジョン --summarize
+
+* 実行例
+$ svn diff -r4137:HEAD --summarize
+M       foo/bar
+...
